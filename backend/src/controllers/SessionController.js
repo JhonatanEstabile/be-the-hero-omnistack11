@@ -13,6 +13,6 @@ module.exports = {
             return response.status(400).json({ error: "ONG not found" });
         }
 
-        response.json({ ong });
+        response.json(ong);
     }
 }
